@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 
-public class screenshot {
+public class Screenshot {
     public static void tirarScreenshot(WebDriver navegador,String arquivo){
         File sceenshot = ((TakesScreenshot)navegador).getScreenshotAs(OutputType.FILE);
         try {

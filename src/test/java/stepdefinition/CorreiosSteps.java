@@ -1,4 +1,4 @@
-package stepsdefinition;
+package stepdefinition;
 
 import io.cucumber.java.pt.Dado;
 import io.cucumber.java.pt.Então;
@@ -22,5 +22,5 @@ public class CorreiosSteps {
         correiosPage.mostrarResultadoLog();
     }
 
-   
+
 }
